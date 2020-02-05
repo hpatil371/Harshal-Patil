@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Registration Page</title>
+</head>
+
+<body>
+<form action="aaa.html">
+<h2>Registration Form</h2>
+<center>
+<fieldset>
+    <legend>Personalia:</legend>
+    
+
+<table>
+<p>Frist Name:<input type="text" size=25 name="fname"></p>
+<p>Last Name:<input type="text" size=25 name="lname"></p>
+
+<p>Email ID:<input type="text" size=25 name="eid"></p>
+<p>Address:<textarea rows="2" cols="25"></textarea></p>
+
+<tr>
+	<th><label for="Gender">Gender: </label></th>
+	<td><select name= "Gender">
+		<option>Choose Gender</option>
+		<option>Male</option>
+		<option>Female</option>
+	</select>
+</td>
+</tr>
+
+<p>Resume: <input type="file" name="file"></p>
+
+<p>which Drink you like:
+<br> <input type="checkbox" name="Drink" value="Nashedi"> Beer<br>
+<input type="checkbox" name="Drink" value="Nashedi"> Rum<br>
+<input type="checkbox" name="Drink" value="Nashedi"> Whiskey<br>
+</p>
+
+</table><br></br>
+<center><button type="submit"  >Register</button> </center>
+ </fieldset>
+ </center>
+
+</form>
+
+
+</body>
+</html>

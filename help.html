@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script type="text/javascript">
+		function showdata()
+		{
+			document.getElementById("display").innerHTML=Date();
+		}
+
+		function disp(a)
+		{
+			a=prompt("Enter the value a");
+			document.getElementById("result").innerHTML =(a*a);
+		}
+	</script>
+
+</head>
+<body>
+
+<center><h2>Help</h2></center>
+
+<button onclick="showdata()">time</button>
+
+	<p id="display"></p>
+
+<button onclick="disp()">calculate</button>
+
+	<p id="result"></p>
+
+</body>
+</html>
